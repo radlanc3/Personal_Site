@@ -1,3 +1,14 @@
-.nav {
+#navb {
     background-color: #222831;
+}
+
+.logo {
+    color: white;
+}
+
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none !important;
+  color: white; 
 }
