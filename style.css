@@ -5,9 +5,18 @@ body {
 background-color: #393E46;
 }
 
+.portfolio__section {
+	margin: 30px 0;
+}
+
+.card {
+	margin: 0 auto;
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
+	margin: 30px 0;
 }
 .footer__copyright {
 	color: #eee;
