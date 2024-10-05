@@ -194,13 +194,18 @@ footer {
 
 
 .desc {
-	color: #fff;
+	color: #eee;
 }
 
-h1 {
-	color: #fff !important;
-}
 
 .footer__background {
 	background-color: #222831;
+}
+
+.logo {
+	color: #eee;
+}
+
+.tlt {
+	color: #eee;
 }
