@@ -13,9 +13,10 @@ body  {
 
 #skills {
   background-color: #222831;
+  height: 500px;
 }
 
-#main-block {
+#home {
   height: 600px;
 }
 
