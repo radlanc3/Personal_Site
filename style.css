@@ -155,3 +155,7 @@ footer {
 .desc {
   color: #fff;
 }
+
+h1 {
+  color: #fff !important;
+}
