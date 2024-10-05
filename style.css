@@ -1,12 +1,19 @@
 * {
 	box-sizing: border-box;
 }
+
 body {
-background-color: #393E46;
+	background-color: #393E46;
 }
 
 .portfolio__section {
 	margin: 30px 0;
+}
+
+.portfolio__section-title {
+	margin-bottom: 30px;
+	text-align: center;
+	color: #eee;
 }
 
 .card {
@@ -18,22 +25,27 @@ footer {
 	justify-content: space-between;
 	margin: 30px 0;
 }
+
 .footer__copyright {
 	color: #eee;
 }
+
 .footer__navbar-list {
 	display: flex;
 	gap: 20px;
 }
+
 .footer__navbar-item {
 	list-style-type: none;
 	padding: 10px 20px;
 }
+
 .footer__navbar-item:hover {
 	transition: 0.5s;
 	background-color: #00ADB5;
 	border-radius: 7.5%;
 }
+
 .footer__navbar-link {
 	text-decoration: none;
 	color: #eee;
