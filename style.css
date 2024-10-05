@@ -18,6 +18,13 @@ body {
 
 .nav-link {
 	color: #eee;
+	transition: 0.5s;
+}
+
+.nav-link:hover {
+	color: #eee;
+	background-color: #00ADB5;
+	border-radius: 7.5%;
 }
 
 #skill {
@@ -133,6 +140,7 @@ body {
 .card {
 	margin: 0 auto;
 	padding: 10px;
+	background-color: #eee;
 }
 
 /* Стили для содержимого карточки: текст по центру */
@@ -144,18 +152,25 @@ body {
 .card-body .btn {
 	background-color: #00ADB5;
 	border-color: #00ADB5;
+	transition: 0.5s;
+}
+
+.card-body .btn:hover {
+	background-color: rgb(0, 120, 126);
+	border-color: rgb(0, 120, 126);
 }
 
 /* Стиль для футера: элементы внутри расположены по обеим сторонам, с отступами сверху и снизу */
 footer {
 	display: flex;
 	justify-content: space-between;
-	margin: 30px 0;
+	padding: 20px 20px;
 }
 
 /* Цвет текста авторских прав в футере */
 .footer__copyright {
 	color: #eee;
+	padding: 10px 20px;
 }
 
 /* Список ссылок в футере: элементы расположены с промежутками (gap: 20px) */
