@@ -21,6 +21,15 @@ body {
 	padding: 10px;
 }
 
+.card-body {
+	text-align: center;
+}
+
+.card-body .btn {
+	background-color: #00ADB5;
+	border-color: #00ADB5;
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
