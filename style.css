@@ -1,6 +1,8 @@
 /* Общий стиль для всех элементов: установка box-sizing на border-box, 
    чтобы ширина и высота включали отступы и рамки */
-* {
+*,
+::after,
+::before {
 	box-sizing: border-box;
 }
 
@@ -14,25 +16,30 @@ body {
 	background-color: #222831;
 }
 
+.nav-link {
+	color: #eee;
+}
+
 #skill {
-  background-color: #222831;
-  height: 500px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
+	background-color: #222831;
+	height: 500px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
 }
 
 
 
 .tab {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .skills_title {
-  color: #fff;
+	color: #fff;
 }
+
 .page {
 	display: grid;
 	grid-template-columns: 2fr 2fr;
@@ -63,11 +70,11 @@ body {
 
 /* Сетка для секции навыков с 3 столбцами и 2 строками, gap между элементами 40px */
 .sklss {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: 2fr 2fr;
-  gap: 12rem;
-  
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-template-rows: 2fr 2fr;
+	gap: 12rem;
+
 }
 
 /* Центрирование изображений внутри grid-элементов, используя автоматические отступы */
@@ -77,9 +84,9 @@ body {
 
 
 .img2 {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  margin-bottom: 7rem;
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	margin-bottom: 7rem;
 }
 
 .img3 {
@@ -175,21 +182,25 @@ footer {
 	text-decoration: none;
 	color: #eee;
 }
+
 .img6 {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
 }
 
 .worksp {
-  border-radius: 15% 15% 0 0;
+	border-radius: 15% 15% 0 0;
 }
 
 
 .desc {
-  color: #fff;
+	color: #fff;
 }
 
 h1 {
-  color: #fff !important;
+	color: #fff !important;
 }
 
+.footer__background {
+	background-color: #222831;
+}
