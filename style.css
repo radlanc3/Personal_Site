@@ -143,6 +143,23 @@ body {
 	background-color: #eee;
 }
 
+.card-title {
+	font-family: "Roboto Serif", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	font-variation-settings:
+	  "wdth" 100,
+	  "GRAD" 0;
+}
+
+.card-text {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
 /* Стили для содержимого карточки: текст по центру */
 .card-body {
 	text-align: center;
@@ -153,6 +170,10 @@ body {
 	background-color: #00ADB5;
 	border-color: #00ADB5;
 	transition: 0.5s;
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
 }
 
 .card-body .btn:hover {
@@ -171,6 +192,13 @@ footer {
 .footer__copyright {
 	color: #eee;
 	padding: 10px 20px;
+	font-family: "Roboto Serif", serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+  	font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
 }
 
 /* Список ссылок в футере: элементы расположены с промежутками (gap: 20px) */
@@ -184,6 +212,13 @@ footer {
 	list-style-type: none;
 	padding: 10px 20px;
 	transition: 0.5s;
+	font-family: "Roboto Serif", serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+  	font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
 }
 
 /* Эффект наведения для элементов футера: изменение фона и закругление углов при наведении */
@@ -210,6 +245,10 @@ footer {
 
 .desc {
 	color: #eee;
+	font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
@@ -219,8 +258,36 @@ footer {
 
 .logo {
 	color: #eee;
-}
+	font-family: "Saira Stencil One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	opacity: .55;
+  }
 
 .tlt {
 	color: #eee;
+	font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
+.nav-link {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+}
+
+
+h2 {
+	font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
