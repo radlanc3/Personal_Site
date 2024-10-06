@@ -44,7 +44,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	gap: 12rem;
+	gap: 6rem;
 }
 
 .skill__card-img {
@@ -53,6 +53,9 @@ body {
 
 .skill__card-title {
 	color: #eee;
+	font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 
@@ -162,7 +165,6 @@ body {
 .card-title {
 	font-family: "Roboto Serif", serif;
 	font-optical-sizing: auto;
-	font-weight: <weight>;
 	font-style: normal;
 	font-variation-settings:
 	  "wdth" 100,
@@ -172,7 +174,6 @@ body {
 .card-text {
 	font-family: "Raleway", sans-serif;
 	font-optical-sizing: auto;
-	font-weight: <weight>;
 	font-style: normal;
 }
 
@@ -188,7 +189,6 @@ body {
 	transition: 0.5s;
 	font-family: "Raleway", sans-serif;
 	font-optical-sizing: auto;
-	font-weight: <weight>;
 	font-style: normal;
 }
 
@@ -210,7 +210,6 @@ footer {
 	padding: 10px 20px;
 	font-family: "Roboto Serif", serif;
   	font-optical-sizing: auto;
-  	font-weight: <weight>;
   	font-style: normal;
   	font-variation-settings:
     "wdth" 100,
@@ -230,7 +229,6 @@ footer {
 	transition: 0.5s;
 	font-family: "Roboto Serif", serif;
   	font-optical-sizing: auto;
-  	font-weight: <weight>;
   	font-style: normal;
   	font-variation-settings:
     "wdth" 100,
@@ -263,7 +261,6 @@ footer {
 	color: #eee;
 	font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -284,14 +281,12 @@ footer {
 	color: #eee;
 	font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
 .nav-link {
   font-family: "Roboto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100,
@@ -302,8 +297,8 @@ footer {
 h2 {
 	font-family: "Roboto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100,
-    "GRAD" 0;
+	"GRAD" 0;
+}
