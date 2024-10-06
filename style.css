@@ -29,12 +29,30 @@ body {
 }
 
 #skill {
+	padding: 3rem 0;
 	background-color: #222831;
-	height: 500px;
-	display: flex;
-	flex-flow: column;
-	justify-content: space-around;
-	align-items: center;
+	text-align: center;
+}
+
+.skill__section-title {
+	margin-bottom: 3.4rem;
+	color: #eee;
+	text-align: center;
+}
+
+.skill__section-cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 12rem;
+}
+
+.skill__card-img {
+	margin-bottom: 1rem;
+}
+
+.skill__card-title {
+	color: #eee;
 }
 
 
@@ -44,9 +62,6 @@ body {
 	justify-content: center;
 }
 
-.skills_title {
-	color: #fff;
-}
 
 .page {
 	display: grid;
