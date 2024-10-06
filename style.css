@@ -17,6 +17,7 @@ body {
 }
 
 .nav-link {
+	margin-right: 10px;
 	color: #eee;
 	transition: 0.5s;
 }
